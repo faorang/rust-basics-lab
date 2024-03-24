@@ -1,0 +1,20 @@
+[workspace]
+
+resolver = "2"
+
+members = [
+  "m1_basics",
+  "m2_ownership",
+  "m3_pattern_matching",
+  "m4_error_handling",
+  "m5_traits",
+  "m6_closures",
+  "m7_type_conversions",
+  "lib",
+  "testing",
+  "m7_type_conversions",
+]
+
+[workspace.dependencies]
+lib = { path = "lib" }
+rand = "0.8.5"
